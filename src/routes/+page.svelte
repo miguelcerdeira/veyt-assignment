@@ -26,7 +26,7 @@
 
 <style>
   .wrapper {
-    min-height: 100vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -42,13 +42,15 @@
     color: #fff;
     text-align: center;
     padding: 2rem;
+    box-sizing: border-box;
+    overflow: auto;
   }
   .hero {
     height: fit-content;
   }
   h1 {
     font-size: 2.5rem;
-    margin-bottom: 2rem;
+    margin: 0 0 2rem 0;
   }
   .search {
     display: flex;
